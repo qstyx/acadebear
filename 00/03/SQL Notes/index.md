@@ -117,7 +117,7 @@ PACK_KEYS = 1;
 * `DELETE` * `FROM` table_name;
 
 <a name="report"></a>
-# 3. Reporting Queries
+# 4. Reporting Queries
 
 ### **COUNT**: returns the # of occurrences
 * `SELECT COUNT (DISTINCT` column_name`)`;
@@ -133,7 +133,7 @@ PACK_KEYS = 1;
 * `SELECT SUM (`column_name`) FROM` table_name `WHERE` condition;
 
 <a name="joins"></a>
-# 4. Join Queries
+# 5. Join Queries
 
 ###  **INNER JOIN**: returns records that have matching value in both tables
 * `SELECT` column_names `FROM` table1 `INNER JOIN` table2 `ON` table1.column_name=table2.column_name;
