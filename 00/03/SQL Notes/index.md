@@ -15,7 +15,7 @@ PACK_KEYS = 1;
 ### **CREATE TABLE ROWS**: 
 
 
-# 1. Finding Data Queries
+# 2. Finding Data Queries
 
 ### **SELECT**: used to select data from a database
 * `SELECT` * `FROM` table_name;
@@ -87,7 +87,7 @@ PACK_KEYS = 1;
 
 
 <a name="modify"></a>
-# 2. Data Modification Queries
+# 3. Data Modification Queries
 
 ### **INSERT INTO**: used to insert new records/rows in a table
 * `INSERT INTO` table_name (column1, column2) `VALUES` (value1, value2);
