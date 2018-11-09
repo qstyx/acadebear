@@ -1,6 +1,6 @@
-## Begin
+# Begin
 
-# Create Database:
+## Create Database:
 Code Syntax: 
 CREATE SCHEMA (databasename) ;
 
