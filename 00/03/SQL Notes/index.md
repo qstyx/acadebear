@@ -2,7 +2,7 @@
 
 ## Create Database:  
 Code Syntax: 
-###  CREATE SCHEMA (databasename) ;
+*CREATE SCHEMA databasename;
 
 Sample Code: 
 CREATE SCHEMA `fidelis` ;
