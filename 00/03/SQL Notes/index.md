@@ -1,6 +1,6 @@
 # SQL Notes
 
-# 1.Alpha
+# 1.Begin
 
 ### **CREATE SCHEMA**: Used to create database  
 * CREATE SCHEMA `databasename`;
@@ -13,7 +13,22 @@ COMMENT = 'Anything goes'
 PACK_KEYS = 1; 
 
 ### **CREATE TABLE ROWS**: 
+* CREATE TABLE `databasename`.`tablename` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NULL,
+  `description` TEXT NULL,
+  `price` DECIMAL NULL,
+  `seller` VARCHAR(100) NULL,
+  `location` VARCHAR(100) NULL,
+  `date_posted` DATETIME NULL DEFAULT NOW(),
+  `productscol` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB
+COMMENT = 'Anything goes'
+PACK_KEYS = 1;
 
+### **USE database**: Initialize specified database
+* USE `databasename`;
 
 # 2. Finding Data Queries
 
