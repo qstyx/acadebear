@@ -1,4 +1,4 @@
-# Begin
+# SQL Notes
 
 ## Create Database:  
 Code Syntax: 
