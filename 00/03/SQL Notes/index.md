@@ -1,17 +1,18 @@
 # SQL Notes
 
-## Create Database:  
-Code Syntax: 
+# 1.Alpha
+
+### **CREATE SCHEMA**: Used to create database  
 * CREATE SCHEMA `databasename`;
 
-Sample Code: 
-*CREATE SCHEMA `fidelis` ;
- 
-*Creates database fidelis
+### **CREATE TABLE**: Creates table for database
+* CREATE TABLE `databasename`.`tablename`(
+)
+ENGINE = InnoDB
+COMMENT = 'Anything goes'
+PACK_KEYS = 1; 
 
-## View All Records
-Code Syntax: 
-*SELECT * FROM tablename;
+### **CREATE TABLE ROWS**: 
 
 
 # 1. Finding Data Queries
