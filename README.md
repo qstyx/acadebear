@@ -1,1 +1,2 @@
-# acadebear
+# Codename: Acadebear
+-Academe management system
